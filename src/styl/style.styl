@@ -1,26 +1,26 @@
 // Default style
 *,
 *:before,
-*:after 
+*:after
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 
-:root 
+:root
   font-size: 10px;
 
-body 
+body
   font-family: 'Roboto', sans-serif;
 
-.profile-container 
-  width: 60px;
-  height: 60px;
+.profile-container
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   position: absolute;
-  top: 20px; 
+  top: 20px;
   right: 20px;
   background-color: dodgerblue;
-  #notifications 
+  #notifications
     background-color: #EB4335;
     color: #ffffff;
     position: absolute;
@@ -29,11 +29,11 @@ body
     display: block;
     text-align: center;
     border-radius: 50%;
-    padding: 5px 10px;
-    font-size: 20px;
+    padding: 3px 6px;
+    font-size: 16px;
 
 
-.container 
+.container
   width: 95%;
   margin: 0 auto;
   height: 96vh;
@@ -41,43 +41,45 @@ body
   justify-content: center;
   align-items: center;
 
-.search-container 
+.search-container
   text-align: center;
   position: relative;
+  max-width: 800px;
   top: -20px;
-  width: 90%;
-  
+  width: 80%;
+
   .logo
     height: 120px;
     margin-bottom: 30px;
-  
-  #input-container 
+
+  #input-container
     display: flex;
-    background-color: #f0f0f0;
+    background-color: #f2f2f2;
     border-radius: 30px;
+    box-shadow: 0 4px 3px rgba(#000, 20%);
     opacity: 0.75;
-    padding: 10px 15px;
+    padding: 10px 35px;
     justify-content: space-between;
     margin-bottom: 30px;
     transition: all 500ms ease;
 
-    &:hover 
+    &:hover
       opacity: 1;
 
-    input 
+    input
       width: 100%;
       border: 0;
       font-size: 30px;
       background-color: transparent;
       padding-left: 20px;
 
-      &:focus 
+      &:focus
         outline: none;
 
-    img 
+    img
       height: 40px;
-  
-  .shortcuts-container 
+
+  .shortcuts-container
     width: 50%;
     margin: 0 auto;
 
@@ -86,7 +88,7 @@ body
       max-width: 70px;
       margin-left: 10px;
 
-    a 
+    a
       display: block;
       color: #222;
       opacity: 0.6;
@@ -95,21 +97,20 @@ body
       font-weight: 500;
       transition: all 700ms;
 
-      &:hover 
+      &:hover
         opacity: 1;
 
 
-footer 
+footer
   align-self: center;
   display: flex;
   justify-content: space-between;
   width: 96%;
   margin: 0 auto;
 
-  ul li 
+  ul li
     color: #555555;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 5px;
     font-size: 1.7rem;
-  
