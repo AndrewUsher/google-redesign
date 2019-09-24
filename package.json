@@ -19,6 +19,6 @@
     "gulp-stylus": "^2.7.0"
   },
   "dependencies": {
-    "@babel/core": "^7.4.5"
+    "@babel/core": "^7.6.2"
   }
 }
