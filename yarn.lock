@@ -442,7 +442,7 @@ babel-code-frame@^6.26.0:
     esutils "^2.0.2"
     js-tokens "^3.0.2"
 
-babel-core@^6.26.0:
+babel-core@6.26.3, babel-core@^6.26.0:
   version "6.26.3"
   resolved "https://registry.yarnpkg.com/babel-core/-/babel-core-6.26.3.tgz#b2e2f09e342d0f0c88e2f02e067794125e75c207"
   integrity sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA==
@@ -2053,7 +2053,7 @@ graceful-fs@^4.0.0, graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
   integrity sha1-TK+tdrxi8C+gObL5Tpo906ORpyU=
 
-gulp-babel@^8.0.0:
+gulp-babel@8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/gulp-babel/-/gulp-babel-8.0.0.tgz#e0da96f4f2ec4a88dd3a3030f476e38ab2126d87"
   integrity sha512-oomaIqDXxFkg7lbpBou/gnUkX51/Y/M2ZfSjL2hdqXTAlSWZcgZtd2o0cOH0r/eE8LWD0+Q/PsLsr2DKOoqToQ==
@@ -2063,7 +2063,7 @@ gulp-babel@^8.0.0:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp-cli@^2.0.1, gulp-cli@^2.2.0:
+gulp-cli@2.2.0, gulp-cli@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/gulp-cli/-/gulp-cli-2.2.0.tgz#5533126eeb7fe415a7e3e84a297d334d5cf70ebc"
   integrity sha512-rGs3bVYHdyJpLqR0TUBnlcZ1O5O++Zs4bA0ajm+zr3WFCfiSLjGwoCBqFs18wzN+ZxahT9DkOK5nDf26iDsWjA==
@@ -2087,7 +2087,7 @@ gulp-cli@^2.0.1, gulp-cli@^2.2.0:
     v8flags "^3.0.1"
     yargs "^7.1.0"
 
-gulp-htmlmin@^5.0.1:
+gulp-htmlmin@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/gulp-htmlmin/-/gulp-htmlmin-5.0.1.tgz#90fc5e8ad0425a9e86d5d521427184e7276365e7"
   integrity sha512-ASlyDPZOSKjHYUifYV0rf9JPDflN9IRIb8lw2vRqtYMC4ljU3zAmnnaVXwFQ3H+CfXxZSUesZ2x7jrnPJu93jA==
@@ -2096,7 +2096,7 @@ gulp-htmlmin@^5.0.1:
     plugin-error "^1.0.1"
     through2 "^2.0.3"
 
-gulp-imagemin@^5.0.3:
+gulp-imagemin@5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/gulp-imagemin/-/gulp-imagemin-5.0.3.tgz#b8236aff523eebd2d4b552a814a35df07ee710bc"
   integrity sha512-bKJMix4r6EQPVV2u8sUglw6Rn0PSp6i70pSK2ECN7j0dRy0w/Lz5SBbynY3MfGBZ0cTMZlaUq+6LyKlZgP74Ew==
@@ -2114,7 +2114,7 @@ gulp-imagemin@^5.0.3:
     imagemin-optipng "^6.0.0"
     imagemin-svgo "^7.0.0"
 
-gulp-stylus@^2.7.0:
+gulp-stylus@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/gulp-stylus/-/gulp-stylus-2.7.0.tgz#f3e932626004927b75ea27ff5c1d3b0ba0b7cbb1"
   integrity sha512-LlneLeHcaRBaEqxwo5YCirpsfkR7uleQ4pHXW8IE2ZeA6M3jpgI90+zQ6SptMTSWr1RSQW3WYFZVA3P0coUojw==
@@ -2127,7 +2127,7 @@ gulp-stylus@^2.7.0:
     through2 "^2.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
-gulp@^4.0.2:
+gulp@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-4.0.2.tgz#543651070fd0f6ab0a0650c6a3e6ff5a7cb09caa"
   integrity sha512-dvEs27SCZt2ibF29xYgmnwwCYZxdxhQ/+LFWlbAW8y7jt68L/65402Lz3+CKy0Ov4rOs+NERmDq7YlZaDqUIfA==
