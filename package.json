@@ -10,6 +10,6 @@
   "author": "Andrew Usher",
   "license": "MIT",
   "dependencies": {
-    "snowpack": "3.1.2"
+    "snowpack": "3.2.1"
   }
 }
