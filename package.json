@@ -1,24 +1,15 @@
 {
-  "name": "gulp-stylus-boilerplate",
+  "name": "google-redesign",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "snowpack build",
+    "dev": "snowpack dev"
   },
   "keywords": [],
   "author": "Andrew Usher",
   "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-cli": "^2.0.1",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^5.0.3",
-    "gulp-stylus": "^2.7.0"
-  },
   "dependencies": {
-    "@babel/core": "^7.4.5"
+    "snowpack": "3.1.2"
   }
 }
